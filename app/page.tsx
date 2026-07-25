@@ -26,29 +26,29 @@ const LinkedinIcon = ({ size = 20 }: { size?: number }) => (
 
 // --- DONNÉES DU CV ---
 const PROJECTS = [
-  {
-    id: 1,
-    title: "Plateforme E-Commerce",
-    description: "Conception de bout en bout d'une application de vente en ligne. Gestion sécurisée des transactions, des paniers et développement d'un panneau d'administration complexe.",
-    tech: ["PHP", "Laravel", "MySQL", "Vue.js"],
+{
+    id: 4,
+    title: "Gestion de Stock SaaS",
+    description: "Développement d'une application SaaS professionnelle dédiée à la gestion de stock et de dons. Architecture fortement typée pour garantir la fiabilité des données logistiques et la scalabilité du système.",
+    tech: ["TypeScript", "React", "Next.js", "Tailwind CSS"],
     link: "#",
-    github: "#"
+    github: "https://github.com/bmappa1342/Gestion-stock-don"
   },
   {
-    id: 2,
-    title: "Architecture Micro-Services",
-    description: "Développement d'une architecture orientée services (SOA) avec intégration de SonarQube pour l'analyse statique du code et le respect strict des normes de sécurité.",
-    tech: ["Java", "Spring Boot", "Docker", "SonarQube"],
+    id: 5,
+    title: "Portfolio Interactif",
+    description: "Conception et développement de mon portfolio de développeur Fullstack (ce site). Interface moderne, animations fluides au défilement et design responsive orienté expérience utilisateur (UX/UI).",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     link: "#",
-    github: "#"
+    github: "https://github.com/bmappa1342/portfolio-bmappa"
   },
   {
     id: 3,
     title: "Système d'APIs RESTful",
-    description: "Création d'une architecture MVC performante. Implémentation de la gestion des utilisateurs (CRUD) et mise en place de tests unitaires automatisés via Postman.",
+    description: "Création d'une architecture MVC performante. Implémentation de la gestion des livres (CRUD) et mise en place de tests unitaires automatisés via Postman.",
     tech: ["Node.js", "Express", "MongoDB", "Postman"],
     link: "#",
-    github: "#"
+    github: "https://github.com/bmappa1342/CrudNodejsVuejs"
   }
 ];
 
