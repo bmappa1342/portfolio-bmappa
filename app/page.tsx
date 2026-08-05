@@ -41,8 +41,8 @@ const DICTIONARY = {
     },
     skills: {
       backend: "PHP, Symfony, Laravel, Node.js, Spring Boot",
-      frontend: "Vue.js, React.js, Angular, Tailwind",
-      mobile: "Flutter, Xamarin, Android",
+      frontend: "Vue.js, React.js, Angular, Tailwind? Next.js",
+      mobile: "Flutter",
       data: "SQL, PostgreSQL, Looker, Docker, Postman"
     },
     experienceSection: {
@@ -82,7 +82,7 @@ const DICTIONARY = {
           title: "LiquidUI - Dashboard Analytique IA", 
           tech: ["Next.js", "React", "Tailwind CSS", "NextAuth"], 
           link: "#", 
-          github: "https://github.com/bmappa1342/ton-repo-liquidui", // <-- À remplacer par le vrai lien
+          github: "https://github.com/bmappa1342/liquid-ui-poc", 
           description: "Conception d'une plateforme SaaS de Business Intelligence (BI) générant des tableaux de bord dynamiques via des requêtes en langage naturel (IA). Intégration de NextAuth, gestion d'équipe (RBAC), import CSV et génération de clés API."
         },
         {
